@@ -53,7 +53,7 @@ Lastly, the user may opt to see the historical sales trends of the given zip cod
 
 -- "This dataset includes 50 months of Zillow sales data."
 
-![Zillow Sales Trends Data](images/zillow_trends_graph_78758_All Homes Median Price.png)
+![Zillow Sales Trends Data](images/zillow_trends_graph_78758_All_Homes_Median_Price.png)
 
 ## Conclusions
 
