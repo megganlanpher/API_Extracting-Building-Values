@@ -19,9 +19,9 @@ Data Sources:
 - [ATTOM Property Data API](https://www.attomdata.com)
   ---> API key needed
 - [Zillow](https://www.zillow.com)
-- [Realtor.com](https://www.realtor.com)
-- [Quandl](https://www.quandl.com)
+== [Quandl](https://www.quandl.com)
   ---> API key needed
+- [Realtor.com](https://www.realtor.com)
 - [Zipcodes](https://pypi.org/project/zipcodes/)
 
 #### Data Dictionary
