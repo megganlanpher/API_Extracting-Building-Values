@@ -39,7 +39,7 @@ We created a Simple API that can be utilized in a Python IDE.
 
 First, the user will input the desired zip code and date of which they are interested in seeing property value data. The Simple API will return the Mean, Median, Minimum, Maximum, and Total Values of the Land, Improved, and Calculated Total Property Values.
 
-- &rarr; _"There are 9264 properties found in the 78758 zipcode for the year preceding 2/21/2020."_
+&rarr; _"There are 9264 properties found in the 78758 zipcode for the year preceding 2/21/2020."_
 
 Then, the user may opt to receive this information broken down by property type.
 
@@ -49,7 +49,7 @@ Lastly, the user may opt to see the historical sales trends of the given zip cod
 
 ![ATTOM Sales Trends Data](images/sales_trends_graph_78758_2020_2_21.png)
 
-- &rarr; _"This dataset includes 50 months of Zillow sales data."_
+&rarr; _"This dataset includes 50 months of Zillow sales data."_
 
 ![Zillow Sales Trends Data](images/zillow_trends_graph_78758_All_Homes_Median_Price.png)
 
