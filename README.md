@@ -14,17 +14,16 @@ During a disaster, it is important to model and estimate the potential or foreca
 
 Existing indicators of forecasted damage include number of structures within the affected area, number of people in the area, number of households, demographics of the impacted population, etc. This project will add an additional indicator: the value of the properties in the affected area.
 
-<<<<<<< HEAD
-=======
 ## Building a Simple API
 
 ### Data Collection
 
 Data Sources:
+
 - [ATTOM Property Data API](https://www.attomdata.com)
   ---> API key needed
 - [Zillow](https://www.zillow.com)
-== [Quandl](https://www.quandl.com)
+  == [Quandl](https://www.quandl.com)
   ---> API key needed
 - [Realtor.com](https://www.realtor.com)
 - [Zipcodes](https://pypi.org/project/zipcodes/)
@@ -33,15 +32,16 @@ Data Sources:
 
 [(ATTOM API Docs)](https://api.developer.attomdata.com/docs)
 
-| Feature | ATTOM Field Name| Description |
-| --- | --- | --- |
-| Zip Code | postal1 | For the U.S. this is the 5-digit ZIP Code |
-| Property type - indicator | proptype | A specific property classification such as "Detached Single Family" |
-| Calculated Improved Value | calcimprvalue | Derived Assessed Value of the improvement(s) used to calculate property tax |
-| Calculated Land Value | calclandvalue | Derived Assessed Value of the land used to calculate property tax |
-| Calculated Total Value | calcttlvalue | Derived Total Value used to calculate property tax |
+| Feature                   | ATTOM Field Name | Description                                                                 |
+| ------------------------- | ---------------- | --------------------------------------------------------------------------- |
+| Zip Code                  | postal1          | For the U.S. this is the 5-digit ZIP Code                                   |
+| Property type - indicator | proptype         | A specific property classification such as "Detached Single Family"         |
+| Calculated Improved Value | calcimprvalue    | Derived Assessed Value of the improvement(s) used to calculate property tax |
+| Calculated Land Value     | calclandvalue    | Derived Assessed Value of the land used to calculate property tax           |
+| Calculated Total Value    | calcttlvalue     | Derived Total Value used to calculate property tax                          |
 
 ### API Deliverable
+
 We created a Simple API that can be utilized in a Python IDE.
 
 First, the user will input the desired zip code and date of which they are interested in seeing property value data. The Simple API will return the Mean, Median, Minimum, Maximum, and Total Values of the Land, Improved, and Calculated Total Property Values.
@@ -60,7 +60,6 @@ Lastly, the user may opt to see the historical sales trends of the given zip cod
 
 ![Zillow Sales Trends Data](images/zillow_trends_graph_78758_All_Homes_Median_Price.png)
 
->>>>>>> ab10b36d1e99c23accbe600af62206ff1015d3a5
 ## Conclusions
 
 ---
