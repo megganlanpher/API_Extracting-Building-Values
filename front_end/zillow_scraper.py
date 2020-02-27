@@ -39,7 +39,7 @@ dcc.Graph(id = 'my-graph')
     [State('my-zip', 'value')])
 def predict(n_clicks, zipinput):
     year, month, day = 2020, 10, 20
-    key = "8f8c6b4bf8578d180b3a5764d87f1565"
+    key = ['MYKEY']
     zipinput = int(zipinput)
     conn = http.client.HTTPSConnection("api.gateway.attomdata.com")
     headers = {
